@@ -14,6 +14,21 @@ MNIST dataset a set of 70,000 small images of digits handwritten by high school 
 **ML Book:** https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291
 
 
+ ## Training Process
+
+   ### Training a binary classifier
+    
+  * STOCHASTIQUE GRADIENT DESCENT
+  * RANDOM FOREST ALGORITHM
+   
+   ### Multiclass clasification
+   
+  * Support Vector Machine
+  * OneVsOne Classifier
+  * OneVsRest Classifier
+   
+
+
  ## Performance Measures
 
    * Cross Validation
@@ -23,3 +38,7 @@ MNIST dataset a set of 70,000 small images of digits handwritten by high school 
    * F1 score
    * Precision/Recall Trade-off
      
+
+## Results 
+
+Afer scaling the inputs, I have obtain an accuracy above 89% using a SGDClassifier, but I could have obtained an 97% accuracy if my PC was able to perform a Grid Search on the KNeighbors Classifier. 
